@@ -2,6 +2,7 @@ import './App.css';
 import Nav from './Nav';
 import Text from './Text';
 import Create from './Create';
+import LandingBottom from './LandingBottom';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Nav/>
         <Text/>
         <Create/>
+        <LandingBottom/>
       </header>
     </div>
   );

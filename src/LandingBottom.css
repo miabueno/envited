@@ -1,0 +1,22 @@
+.LandingBottom {
+    background-image: url('https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9d696587-a049-4679-8158-23eb9c0d534a/Social_Media_icons.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220220T072757Z&X-Amz-Expires=86400&X-Amz-Signature=e288a2aa66b3eb2f56ff29d6c4de1cec5cd547107d6b7331c1cacbb7b2712819&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Social%2520Media%2520icons%2520%252F%2520all%2520grouped.png%22&x-id=GetObject');
+    background-size: 345px;
+    background-repeat: no-repeat;
+
+    display: flex;
+}
+
+
+img.middle {
+    width: 206px;
+    margin-right: -90px;
+}
+
+img.right {
+    width: 166px;
+}
+
+img.left {
+    width: 166px;
+    margin-right: -90px;
+}
