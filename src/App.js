@@ -1,19 +1,26 @@
 import './App.css';
-import Nav from './Nav';
-import Text from './Text';
-import Create from './Create';
-import LandingBottom from './LandingBottom';
+import CreateEventForm from './CreateEventForm';
+import Event from './Event';
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from 'react-router-dom';
+import Home from './Home';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Nav/>
-        <Text/>
-        <Create/>
-        <LandingBottom/>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/">
+          <Route index element={<Home/>}/>
+          <Route path="create" element={<CreateEventForm/>}/>
+          <Route path="event" element={<Event/>}/>
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 
