@@ -1,13 +1,13 @@
 import './App.css';
-import CreateEventForm from './CreateEventForm';
-import Event from './Event';
+import CreateEventForm from './pages/CreateEventForm';
+import Event from './pages/Event';
 
 import {
   BrowserRouter as Router,
   Routes,
   Route,
 } from 'react-router-dom';
-import Home from './Home';
+import Home from './pages/Home';
 
 
 function App() {

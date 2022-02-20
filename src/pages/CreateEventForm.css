@@ -1,0 +1,13 @@
+.CreateEventForm {
+    background-image: url('https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0645be79-d475-40e0-9f53-9336e3fe13b7/envited_landing_page.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220220T073050Z&X-Amz-Expires=86400&X-Amz-Signature=3b1759e28392ead04a27ffa402023e8e8590c35c08baf9b31a3a61ca1ad01d7f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Landing%2520page%2520background%2520gradient.png%22&x-id=GetObject');
+    background-size: 375px 813px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 15px;
+}
+
+h2, h4 {
+    text-align: center;
+}
